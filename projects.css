@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+    background-color: blanchedalmond;
+    min-height: 30%;
+}
+
+.wordpress h1{
+    font-size: 35px;
+    color: #000;
+    cursor: pointer;
+}
+
+.wordpress h1:hover {
+    color: rgb(91, 98, 101);
+    transition: .4s;
+}
+
+span {
+    color: rgb(91, 98, 101);
+}
+
+.wordpress li {
+    color: rgb(90, 83, 83);
+    font-size: 18px;
+}
+
+.wordpress li a {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wordpress li a:hover {
+    font-size: 20px;
+    color: rgb(154, 154, 225);
+    transition: 4s;
+}
+
+.btn {
+    background-color: #ed085c;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
