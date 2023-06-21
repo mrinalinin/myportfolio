@@ -8,7 +8,7 @@
 .first {
     height: 70vh;
     width: 100%;
-    background-image: url(./img/portfolio_bg.jpg);
+    background-image: url(./portfolio_bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -56,7 +56,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #ea7777;
     transition: .4s;
-}    
+}  
 
 .btn {
     background-color: #ed085c;
@@ -73,10 +73,9 @@ nav ul li a:hover {
 }
 
 .content {
-    position: absolute;
-    top: 50%;
+    position: static;
     padding-left: 8%;
-    transform: translateY(-50%);
+    padding-top: 10%;
     color: #fff;
 }
 
@@ -178,6 +177,8 @@ h4 {
     height: 30%;
     width: 20%;
     position: relative;
+    border-radius: 50px;
+    border-color: #858585;
     transform: translateX(-130%);
 }
 
@@ -362,7 +363,7 @@ footer {
     background-position: center;
     width: 100%;
     height: 40vh;
-    background-image: url(./img/portfolio_bg.jpg);
+    background-image: url(./portfolio_bg.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -431,9 +432,86 @@ footer p:nth-child(3) {
     font-weight: 400;
 }
 
-@media screen and (max-width: 900px) {
-    .card {
+@media only screen and (max-width: 680px) {
+    html, body {
         width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
     }
-}
 
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+
+    .content {
+        padding-top: 30%;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    nav ul li{
+        font-size: 11px;
+        display: flex;
+        padding: 5%;
+    }
+
+    .about-text h2 {
+        font-size: 25px;
+    }
+
+    .about-text p {
+        letter-spacing: 0.2px;
+        line-height: 15px;
+        font-size: 13px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    .box {
+        min-height: 350px;
+    }
+    .title h2 {
+        font-size: 25px;
+        width: 460px;
+    }
+    .card {
+        height: 290px;
+        padding: 10px 15px;
+        margin: 5px;
+        margin-top: 5px;
+        position: relative;
+    }
+    .card:hover {
+        left: 2%;
+        transition: bottom 2s;
+    }
+    h5 {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .pra p {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: justify;
+    }
+    
+}
