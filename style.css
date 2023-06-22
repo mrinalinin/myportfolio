@@ -489,8 +489,9 @@ footer p:nth-child(3) {
         min-height: 350px;
     }
     .title h2 {
-        font-size: 25px;
-        width: 460px;
+        font-size: 22px;
+        width: 400px;
+        
     }
     .card {
         height: 290px;
@@ -513,5 +514,9 @@ footer p:nth-child(3) {
         line-height: 15px;
         text-align: justify;
     }
+    footer p:nth-child(2) {
+        font-size: 12px;
+        width: 500px;
+     }
     
 }

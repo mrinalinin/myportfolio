@@ -55,29 +55,41 @@ h2 {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
+    .h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 16px;
+    }
     .one {
         height: 290px;
-        width: 350px;
+        width: 300px;
         margin: 0;
-        padding-top: 5%;
-        padding-left: 12%;
+        padding-top: 5px;
+        padding-left: 60px;
         text-align: justify;
+    }
+    .one p {
+        font-size: 12px;
+    }
+    .two p {
+        font-size: 12px;
     }
     .two {
         padding-left: 0;
-        padding-bottom: 10%;
+        padding-bottom: 10px;
         height: 170px;
-        width: 350px;
+        width: 300px;
         text-align: justify;
         display: block;
     }
     .button {
-        padding-bottom: 20%;
-        padding-right: 28%;
-        padding-top: 10%;
+        padding-bottom: 50%;
+        padding-right: 18%;
+        padding-top: 5%;
     }
     .btn {
-        font-size: 14px;
+        font-size: 8px;
     }
     
 }
