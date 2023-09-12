@@ -8,7 +8,7 @@
 .first {
     height: 70vh;
     width: 100%;
-    background-image: url(./portfolio_bg.jpg);
+    background-image: url(./pxfuel.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -23,7 +23,7 @@ nav {
 }
 
 .logo {
-    color: #fff;
+    color: #131010;
     font-size: 38px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -47,7 +47,7 @@ nav ul li {
 }    
 
 nav ul li a {
-    color: #fff;
+    color: #120e0e;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 .btn {
     background-color: #ed085c;
-    color: #fff;
+    color: #100b0b;
     text-decoration: none;
     border: 2px solid transparent;
     padding: 10px 25px;
@@ -76,7 +76,7 @@ nav ul li a:hover {
     position: static;
     padding-left: 8%;
     padding-top: 10%;
-    color: #fff;
+    color: #171010;
 }
 
 .content b:hover {
@@ -91,7 +91,7 @@ h1 {
 }
 
 .content a {
-    color: #fff;
+    color: #110c0c;
     font-size: 25px;
 }
 
@@ -236,6 +236,27 @@ button:hover {
     padding: 100px 0px;
 }
 
+.pro {
+    background: #e59fd8;
+}
+
+.cd1 {
+    display:flex;
+    justify-content: center;
+}
+
+.cd {
+    height: 265px;
+    width: 335px;
+    background: #c5f16e;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 12px 16px 0 rgb(110, 240, 100);
+    transition: 4s;
+}
+
 .title h2 {
     color: #000;
     font-size: 75px;
@@ -266,13 +287,13 @@ button:hover {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #e8dcf6;
+    background: #c5f16e;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
-    box-shadow: 0 10px 14px 0 rgb(236, 132, 189);
+    box-shadow: 0 12px 16px 0 rgb(110, 240, 100);
     transition: 4s;
 }
 
@@ -363,7 +384,7 @@ footer {
     background-position: center;
     width: 100%;
     height: 40vh;
-    background-image: url(./portfolio_bg.jpg);
+    background-image: url(./pxfuel.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -373,13 +394,13 @@ footer {
 
 footer p:nth-child(1) {
     font-size: 30px;
-    color: #fff;
+    color: #131212;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 footer p:nth-child(2) {
-   color: #fff;
+   color: #0c0909;
    font-size: 17px;
    width: 500px;
    text-align: center;
@@ -387,7 +408,7 @@ footer p:nth-child(2) {
 }
 
 footer p:nth-child(3) {
-    color: #fff;
+    color: #0d0b0b;
     font-size: 16px;
     width: 500px;
     text-align: center;
@@ -395,7 +416,7 @@ footer p:nth-child(3) {
  }
 
  footer p:nth-child(4) {
-    color: #fff;
+    color: #090808;
     font-size: 14px;
     width: 500px;
     text-align: center;
@@ -415,7 +436,7 @@ footer p:nth-child(3) {
     background: #ed085c;
     border-radius: 50%;
     margin: 22px 10px;
-    color: #fff;
+    color: #090707;
     text-decoration: none;
     font-size: 20px;
 }
@@ -426,7 +447,7 @@ footer p:nth-child(3) {
 }
 
 .end {
-    color: white;
+    color: rgb(14, 11, 11);
     align-items: baseline;
     font-size: 14px;
     font-weight: 400;
